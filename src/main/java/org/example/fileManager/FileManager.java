@@ -51,7 +51,7 @@ public class FileManager {
     }
 
     public static void move(String from, String to) throws IOException {
-        new File(from).renameTo(new File(to));
+//        new File(from).renameTo(new File(to));
         copy(from, to);
         delete(from);
     }
